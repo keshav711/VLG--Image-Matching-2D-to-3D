@@ -1,3 +1,120 @@
+#Pandas
+try:
+    import pandas as pd 
+    print("pandas version-",pd.__version__)
+except:
+    !pip install pandas -q
+    import pandas as pd 
+    print("pandas version-",pd.__version__)
+#numpy
+try:
+    import numpy as np
+    print("numpy version-",np.__version__)
+except:
+    !pip install numpy -q
+    import numpy as np
+    print("numpy version-",np.__version__)
+#os,collections,time,path,garbage,tqdm
+import os
+from collections import defaultdict
+import time
+import gc
+import tqdm
+from pathlib import Path
+import csv
+from copy import *
+import math
+import numbers
+import random
+""""#progress bar
+try:
+    from fastprogress import progessbar
+except:
+    !pip install fastprogess
+    from fastprogress import progessbar"""
+#opencv   
+try:
+    import cv2
+    print("opencv version-",cv2.__version__)
+except:
+    !pip install opencv-python -q
+    import cv2
+    print("opencv version",cv2.__version__)
+#scikit-image
+try:
+    import skimage
+    print("scikit image version",skimage.__version__) 
+except:
+    !pip install scikit-image -q
+    import skimage
+    print("scikit image version",skimage.__version__)
+#PIL Image
+try:
+    from PIL import Image,ExifTags
+except:
+    !pip install PIL
+    from PIL import Image,ExifTags
+#pycolmap    
+try:
+    import pycolmap
+    print("pycolmap version",pycolmap.__version__)
+except:
+    !pip install pycolmap -q
+    import pycolmap
+    print("pycolmap version",pycolmap.__version__)
+#mediapy
+try:
+    import mediapy as media
+    print("mediapy version", media.__version__)
+except: 
+    !pip install mediapy -q
+    import mediapy as media
+    print("mediapy version", media.__version__)
+#glob
+from glob import glob
+
+#h5py for hdf5 format
+try:
+    import h5py
+except: 
+    !pip install h5py -q
+    import h5py
+#pytorch & nn functions
+try:
+    import torch 
+    import torch.nn.functional as F
+    device=torch.device('cuda')
+    print("torch version", torch.__version__)
+except: 
+    !pip install torch -q
+    import torch
+    import torch.nn.functionaal as F
+    device=torch.device('cuda')
+    print("torch version", torch.__version__)
+#TIMM
+try: 
+    import timm
+    from timm.data import resolve_data_config
+    from timm.data.auto_augment import rand_augment_transform, augment_and_mix_transform, auto_augment_transform
+    from timm.data.random_erasing import RandomErasing
+    from timm.data.transforms_factory import create_transform
+except:
+    !pip install timm
+    import timm
+    from timm.data import resolve_data_config
+    from timm.data.auto_augment import rand_augment_transform, augment_and_mix_transform, auto_augment_transform
+    from timm.data.random_erasing import RandomErasing
+    from timm.data.transforms_factory import create_transform
+#Kornia
+try:
+    import kornia 
+    print("kornia version", kornia.__version__)
+except: 
+    !pip install kornia -q
+    import kornia
+    print("kornia version", kornia.__version__)
+
+    
 def to_str(a):
     return ';'.join([str(x) for x in a.reshape(-1)])
 
