@@ -1,0 +1,14 @@
+21.0s 1 Kornia version 0.6.11
+21.0s 2 Pycolmap version 0.3.0
+21.4s 3 2cfa01ab573141e4 / 2fa124afd1f74f38 -> 3 images
+21.7s 4 2cfa01ab573141e4
+21.7s 5 2fa124afd1f74f38
+21.7s 6 /kaggle/input/image-matching-challenge-2023/test/2cfa01ab573141e4/2fa124afd1f74f38/images no images found
+25.1s 7 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2935: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+25.1s 8 FutureWarning,
+25.1s 9 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+25.5s 10 [NbConvertApp] Writing 61597 bytes to __notebook__.ipynb
+27.1s 11 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2935: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+27.1s 12 FutureWarning,
+27.1s 13 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+28.3s 14 [NbConvertApp] Writing 448899 bytes to __results__.html
